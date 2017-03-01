@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "slogan";
+  src: url(SourceSansPro-Light-webfont.woff2);
+}
+
+@font-face {
+  font-family: "offer";
+  src: url(SourceSansPro-Regular-webfont.woff2);
+}
+
 .contact {
   padding: 3em;
   text-align: right;
@@ -14,8 +24,24 @@ body {
 
 #logo > img {
   width: 240px;
+  margin-top: -20px;
 }
 
 #logo {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+#slogan {
+  font-size: 60px;
+  text-align: center;
+  font-family: "slogan";
+  font-weight: 100;
+}
+
+#offer {
+  font-size: 15px;
+  text-align: center;
+  font-family: "offer";
+  margin-top: 20px;
 }
