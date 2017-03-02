@@ -20,6 +20,7 @@ a {
 
 body {
   background-color: purple;
+  margin: 0;
 }
 
 #logo > img {
@@ -44,4 +45,30 @@ body {
   text-align: center;
   font-family: "offer";
   margin-top: 20px;
+}
+
+.phones {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headerphoneleft.phone {
+  width: 33%;
+  position: relative;
+  right: -10%;
+}
+
+#headerphonecenter.phone {
+  width: 33%;
+  position: relative;
+  top: -20px;
+  z-index: 3;
+}
+
+#headerphoneright.phone {
+  width: 33%;
+  position: relative;
+  left: -10%;
 }
