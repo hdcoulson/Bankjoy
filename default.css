@@ -11,6 +11,7 @@
 .contact {
   padding: 3em;
   text-align: right;
+  color: white;
 }
 
 a {
@@ -38,6 +39,7 @@ body {
   text-align: center;
   font-family: "slogan";
   font-weight: 100;
+  color: white;
 }
 
 #offer {
@@ -45,6 +47,7 @@ body {
   text-align: center;
   font-family: "offer";
   margin-top: 20px;
+  color: white;
 }
 
 .phones {
@@ -63,12 +66,30 @@ body {
 #headerphonecenter.phone {
   width: 33%;
   position: relative;
-  top: -20px;
-  z-index: 3;
+  top: -50px;
+  z-index: 1;
 }
 
 #headerphoneright.phone {
   width: 33%;
   position: relative;
   left: -10%;
+}
+
+.background {
+  background: url('bankjoyBackground.jpg');
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -2;
+  background-size: cover;
+}
+
+.transparency {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: url('layer.jpg');
+  opacity: 0.8;
+  z-index: -1;
 }
